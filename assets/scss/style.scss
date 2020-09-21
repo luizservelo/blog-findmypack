@@ -117,17 +117,20 @@ img{
         }
         h3{
             font-size: 22px;
-            margin-bottom: 30px;
+            margin-top: 30px;
+            margin-bottom: 15px;
             color: $color-dark;
         }
         h4{
             font-size: 18px;
-            margin-bottom: 30px;
+            margin-top: 30px;
+            margin-bottom: 15px;
             color: $color-dark;
         }
         h5{
             font-size: 16px;
-            margin-bottom: 30px;
+            margin-top: 30px;
+            margin-bottom: 15px;
             color: $color-dark;
         }
         p{
@@ -144,6 +147,14 @@ img{
         img{
             margin: auto;
             margin-bottom: 15px;
+        }
+        ul, ol{
+            margin-left: 20px;
+            margin-bottom: 15px;
+            li{
+                margin-bottom: 10px;
+                font-size: 16px;
+            }
         }
     }
 }
